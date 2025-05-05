@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priyansh Agrawal-Developer Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class = "left">Priyansh's Portfolio</div>
+            <div class = "right"></div>
+             <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="/">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+
+                <li><a href="#contact">Contact Me</a></li>
+
+             </ul> 
+        </nav>
+    </header>
+    <main>
+        <section class="hero-section">
+            <div class="container hero-container">
+              <div class="hero-text">
+                <h1>
+                  Hii, My name is <span class="highlight" style="color: #FF6347;">Priyansh Agrawal</span><br>
+                  and I am a passionate <span class="highlight typed-text"></span>
+                  <span class="typed-cursor">|</span>
+                </h1>
+                <div class="hero-buttons">
+                  <a href="resume.pdf" class="btn">Download Resume</a>
+                  <a href="https://github.com/" class="btn">Visit Github</a>
+                </div>
+              </div>
+              <div class="hero-image">
+                <img src="pic.png.jpg" alt="Priyansh Agrawal">
+              </div>
+            </div>
+          </section>
+          
+          
+        
+        <section class="about-section" id="about">
+            <h2>About Me</h2>
+            <div class="container">
+              <div class="about-content">
+                <div class="about-text">
+                  <p>Hello! I'm <strong>Priyansh Agrawal</strong>, a dedicated and creative web developer currently pursuing my B.Tech in Computer Science with a specialization in Artificial Intelligence and Machine Learning at VIT Bhopal University.</p>
+                  <p>My passion lies in <strong>Web Development</strong>. I love bringing ideas to life by building clean, responsive, and interactive websites using technologies like HTML, CSS, JavaScript, and modern frameworks.</p>
+                  <p>Beyond coding, I value problem-solving, continuous learning, and staying updated with the latest trends in the tech world. I aim to contribute meaningfully to real-world projects and grow as a developer who builds with purpose.</p>
+                </div>
+                <div class="about-image">
+                  <img src="vit.png" alt="Priyansh Agrawal">
+                </div>
+              </div>
+            </div>
+          </section>
+          
+          
+          
+        <section class="projects-section" id="projects">
+
+            <h1>My Projects</h1>
+            <div class="projects-container">
+                <div class="project">
+                    <img src="img.png.png" alt="Project 1" class="project-image">
+                    <div class="project-info">
+                        <h3>Project Title 1</h3>
+                        <p>A brief description of the project. Include the technologies used, challenges faced, and key outcomes.</p>
+                        <a href="https://github.com/Priyanshagrawal633/calculator-using-js.git" target="_blank" class="btn">View on GitHub</a>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        
+        <section class="contact-section" id="contact">
+            <h1>Contact Me</h1>
+            <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+          
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+          
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+          
+              <button type="submit" class="btn">Send</button>
+            </form>
+          </section>
+          
+             
+          
+    </main>
+    <footer>
+        <div class="footer">
+          <div class="footer-first">
+            <h3>Priyansh's Developer Portfolio</h3>
+          </div>
+          <div class="footer-second">
+            <ul>
+              <li>
+                <a href="https://www.linkedin.com/in/priyansh-agrawal-89b811223/" target="_blank">
+                  <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" style="width:20px; height:20px; vertical-align:middle;">
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/priyansh_agrawal_01/?hl=en" target="_blank">
+                  <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" style="width:20px; height:20px; vertical-align:middle;">
+                  Instagram
+                </a>
+              </li>
+              <li>
+                <a href="https://x.com/Priyans66638572?t=4dBO9cxE6BRiKpcSHlHpsA&s=09" target="_blank">
+                  <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" style="width:20px; height:20px; vertical-align:middle;">
+                  Twitter
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/Priyanshagrawal633" target="_blank">
+                  <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" alt="GitHub" style="width:20px; height:20px; vertical-align:middle;">
+                  GitHub
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-third"></div>
+          <div class="footer-fourth"></div>
+        </div>
+        <div class="footer-rights">
+          www.priyanshportfolio.com | All rights reserved ©
+        </div>
+      </footer>
+      
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+      <!-- TYPED.JS INITIALIZATION -->
+      <script>
+        var typed = new Typed('.typed-text', {
+          strings: ['Web Developer', 'Problem Solver', 'AI Enthusiast', 'Creative Coder'],
+          typeSpeed: 60,
+          backSpeed: 30,
+          backDelay: 1000,
+          loop: true
+        });
+      </script>
+</body>
+</html>
